@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@font-face {
+    font-family: "anything";
+    src: url('Fonts/Booter - Zero Zero.woff2') format("woff2"),
+         url('Fonts/Booter - Zero Zero.woff') format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #C9A227;
+}
+
+html, body {
+    padding:0;
+    margin:0;
+}
+
+.nav ul {
+    margin:0;
+}
+
+.nav li{
+    display: inline;
+
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.3em;
+    border-bottom: 1px solid #3a4b4b;  /*I could use some other colors like #5E4B2C */
+    background-color: rgba(0, 0, 0, .5);
+    background-blend-mode:multiply ;
+
+}
+
+.main-nav li {
+    padding: 0em 1.5em;
+}
+
+ .nav a {
+    display: inline-block;
+    padding:10px;
+    text-decoration: none;
+    
+} 
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+.header {
+    background-image:url('images/header-bg.avif') ;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .3);
+    background-blend-mode: multiply;
+    padding-bottom: 50px;
+}
+
+.band-name {
+    margin: 0;
+    font-size: 4em;
+    font-family: anything;
+    font-weight: normal;
+}
+
+.band-name-large {
+    text-align: center;
+    font-size: 6em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-family: Metal Mania;
+    font-weight: normal;
+    color: #826a1a;
+}
+
+.about-band-image {
+    float: left;
+    width: 300px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.main-footer {
+    background-color: #826a1a;
+    margin: 0;
+    color: #3a4b4b;
+    padding: 0.3em 0.5em;
+    
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav {
+    padding: 0 .5em;
+}
+
